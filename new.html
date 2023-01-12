@@ -12,7 +12,7 @@
 	<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
-    <title>resume</title>
+    <title>Portfolio</title>
   </head>
   <body>
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -20,11 +20,13 @@
   <div class="home">
       <header id="hed" class="container-fluid fixed-top">
 	<div class="row">
-		<nav class="navbar navbar-expand-lg navbar bg-dark d-flex justify-content-center py-3 shadow-sm p-2">
+		<nav class="navbar navbar-expand-lg navbar bg-light d-flex justify-content-center py-3 shadow-sm p-2">
 			<div class="container">
 				<a class="navbar-brand fs-3" href="#">MONISHA</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
+				<!-- <span class="navbar-toggler-icon"></span> -->
 				</button>
 				
 				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -62,8 +64,13 @@
                 <div class="col-sm-12 col-md-6 pt-5 me">					
 					<h1>Monisha. K</h1>
 					<p>FRONT END DEVELOPER</p>
-					<div  class="cv mt-5">
-					<a href="">Download CV</a>
+					<div  class="cv mt-5 d-flex">
+					<div>
+						<a href="">Download CV</a>
+					</div>
+					<!-- <div> -->
+						<!-- <a href="">View Resume</a> -->
+					<!-- </div> -->
 					</div>
 				</div>
 				
@@ -201,7 +208,8 @@
 				    <p class="mt-2"><span>Responsibilities:</span>Build front-end pages, Test the pages in all browsers, Implement validation</p>
 				    <p class="mt-2"><span>Tech-Stack:</span>Bootstrap,HTML,CSS</p>
 					<div class="mt-4">
-					<a href="file:///D:/fabevy/Practice/practice-13/template/index.html#contact target="-blank">Check it out</a></div>
+					<a href="
+https://kmonisha1999.github.io/ninestar-project/" target="-blank">Check it out</a></div>
 				</div>
 				<div class="col-sm-12 col-md-6 mt-5">
 				    <div data-aos="fade-right">
@@ -214,7 +222,8 @@
 				    <p class="mt-2"><span>Description:</span>Responsibilities:</span>Build front-end pages, Test the pages in all browsers, Implement validation</p>
 				    <p class="mt-2"><span>Tech-Stack:</span>HTML,CSS</p>
 					<div class="mt-4">
-					<a href="file:///D:/fabevy/Practice/practice-13/website/index.html" target="-blank">Check it out</a></div>
+					<a href="
+https://kmonisha1999.github.io/mamba-project/" target="-blank">Check it out</a></div>
 				</div>
 				
             </div>			
@@ -271,5 +280,19 @@
 	<script>
   AOS.init();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script>
+ 
+        const navLinks=document.querySelectorAll(".nav-item") ;
+        const  menuToggle=document.getElementById("navbarNavDropdown");
+        let bsCollabse=new bootstrap.Collapse(menuToggle,{toggle:false})
+        navLinks.forEach((e) =>{
+            e.addEventListener("click",()=>{bsCollabse.toggle()})
+        })
+     
+	
+	
+	</script>
   </body>
 </html>

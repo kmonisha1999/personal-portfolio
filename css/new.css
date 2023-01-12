@@ -4,23 +4,38 @@
 }
 .home{
 	width:100%;
-	background-color:black;
+	/* background-color:black; */
 	background-size:cover;
 	background-position:center;
 	background-attachment:fixed;
 }
+.navbar-toggler{
+	background-color:black;
+	width:55px;
+	height:50px;
+}
 .navbar-toggler-icon{
-	color:white;
+	height:2px;
+	background-color:white;
+
 }
 .cv{
 	padding:6px;
 	border-radius:30px;
 	background-color:#FFCC00;
 }
+.nav-item a{
+	color:black;
+}
 .cv a{
 	text-decoration:none;
 	font-size:20px;
 	color:white;
+	padding-left:10px;
+	padding-right:10px;
+}
+.why{
+	background-color:black;
 }
 .name img{
 	width:100%;
@@ -88,8 +103,9 @@
 	text-decoration:none;
 	padding:10px;
 	font-size:20px;
-	background-color:#FFCC00;
-	color:white;
+	font-weight:700;
+	background-color:black;
+	color:#FFCC00;
 }
 @media(min-width:1024px){
 	.name{
@@ -208,13 +224,14 @@
 	font-size:1.1rem;
 }
 .footer{
-	background-color:#FFCC00;
+	background-color:black;
 }
 .foot{
 	text-align:center;
+	color:white;
 }
 .foot span{
-	color:black;
+	color:#FFCC00;
 	font-weight:700;
 } 
 .obj span{
@@ -240,7 +257,7 @@
 	padding-right:15px;
 	padding-left:15px;
 	border-radius:60px 10px;
-	border:3px solid #FFCC00;
+	border:3px solid #0000004d;
 	box-shadow:0 0 16px rgb(0 0 0/10%);
 	width:49%;
 	background-color:white;
